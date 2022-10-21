@@ -1,5 +1,5 @@
 {
-  "name": "my-blog",
+  "name": "RuyWanBlog",
   "version": "1.0.0",
   "author": "reco_luan",
   "scripts": {
@@ -10,5 +10,5 @@
     "vuepress": "1.9.7",
     "vuepress-theme-reco": "1.6.16"
   },
-  "description": "my-blog"
+  "description": "RuyWan-blog"
 }
