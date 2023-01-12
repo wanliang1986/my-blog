@@ -87,5 +87,34 @@ module.exports = {
   },
   "markdown": {
     "lineNumbers": true
-  }
+  },
+  "plugins": [
+    // [
+    //   'ribbon',
+    //   {
+    //     "size": 90, // width of the ribbon, default: 90
+    //     "opacity": 0.8, // opacity of the ribbon, default: 0.3
+    //     "zIndex": -1, // z-index property of the background, default: -1
+    //   },
+    // ],
+    ['@vuepress-reco/vuepress-plugin-kan-ban-niang', {
+      "theme": ["shizuku"],
+      "clean": false,
+      "info": 'https://github.com/mengqiuleo',
+      "messages": {
+        "welcome": '',
+        "home": '心里的花，我想要带你回家',
+        "theme": '好吧，希望你能喜欢我的其他小伙伴。',
+        "close": '再见哦'
+      }
+    }],
+    ["sakura", {
+      "num": 40,  // 默认数量
+      "show": true, //  是否显示
+      "zIndex": -1,   // 层级
+      "img": {
+        "replace": false,  // false 默认图 true 换图 需要填写httpUrl地址
+      }
+    }]
+  ]
 }

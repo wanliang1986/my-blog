@@ -8,12 +8,12 @@ heroImageStyle: {
   width: '100%',
   display: block,
   margin: '9rem auto 2rem',
-  background: '#fff',
+  background: '#D6E5FC',
   borderRadius: '1rem',
 }
 bgImageStyle: {
-  height: '450px',
-  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Fef3403678552a95a258664c21cfac8bf33f44d02998db-Xgr6nZ_fw658&refer=http%3A%2F%2Fhbimg.b0.upaiyun.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1669085758&t=0afa23c139f731e582b60c2467b1fb20')
+  height: '550px',
+  background-image: url('/map.jpeg')
 }
 isShowTitleInHome: false
 actionText: Guide
