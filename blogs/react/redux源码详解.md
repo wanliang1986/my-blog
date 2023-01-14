@@ -13,6 +13,8 @@ redux是js应用的状态容器，提供可预测的状态管理。在react的�
 官网链接：https://cn.redux.js.org/
 :::
 
+<!-- more -->
+
 # redux的三大原则
 1. 单一数据源：整个应用的 state 被储存在一颗 object tree 中，并且这个 object tree只存在于唯一一个 store 中。（一个项目中只能有一个store）
 2. state 是只读的：唯一改变 state 的方法就是触发 action，action 是一个用于描述已发生事件的普通对象
