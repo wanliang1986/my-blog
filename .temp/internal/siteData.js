@@ -23,6 +23,54 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Electron 桌面应用开发（一)",
+      "frontmatter": {
+        "title": "Electron 桌面应用开发（一)",
+        "date": "2023-1-24",
+        "sidebar": "auto",
+        "categories": [
+          "Electron"
+        ],
+        "tags": [
+          "Electron"
+        ]
+      },
+      "regularPath": "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89.html",
+      "relativePath": "blogs/electron/electron桌面应用开发（一）.md",
+      "key": "v-521d7f87",
+      "path": "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "初始化Electron",
+          "slug": "初始化electron"
+        },
+        {
+          "level": 2,
+          "title": "main指向文件引用electron",
+          "slug": "main指向文件引用electron"
+        },
+        {
+          "level": 2,
+          "title": "安装electron 热加载工具",
+          "slug": "安装electron-热加载工具"
+        },
+        {
+          "level": 2,
+          "title": "打开页面调试",
+          "slug": "打开页面调试"
+        },
+        {
+          "level": 2,
+          "title": "electron 常用生命周期",
+          "slug": "electron-常用生命周期"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>如果你可以建一个网站，你就可以建一个桌面应用程序。Electron是一个使用javaScript,HTML和Css等Web技术创建原生程序的框架，它负责把你的页面部分打包成跨平台的（Windows,Mac,Linux）应用程序，而开发者可以把精力放到应用的核心功能实现即可。\n本篇记录一些基础的运用，帮你打开一个Hello Electron!</p>\n</div>",
+      "lastUpdated": "1/30/2023, 5:32:03 PM",
+      "lastUpdatedTimestamp": 1675071123000
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -64,90 +112,6 @@ export const siteData = {
       "path": "/",
       "lastUpdated": "1/12/2023, 10:42:04 AM",
       "lastUpdatedTimestamp": 1673491324000
-    },
-    {
-      "title": "Electron 桌面应用开发（一)",
-      "frontmatter": {
-        "title": "Electron 桌面应用开发（一)",
-        "date": "2023-1-25",
-        "sidebar": "auto",
-        "categories": [
-          "Electron"
-        ],
-        "tags": [
-          "Electron"
-        ]
-      },
-      "regularPath": "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%BA%8C%EF%BC%89.html",
-      "relativePath": "blogs/electron/electron桌面应用开发（二）.md",
-      "key": "v-56a93afd",
-      "path": "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%BA%8C%EF%BC%89.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "原生窗口菜单的使用",
-          "slug": "原生窗口菜单的使用"
-        },
-        {
-          "level": 3,
-          "title": "修改默认菜单及添加子菜单",
-          "slug": "修改默认菜单及添加子菜单"
-        },
-        {
-          "level": 3,
-          "title": "窗口配置",
-          "slug": "窗口配置"
-        },
-        {
-          "level": 3,
-          "title": "自定义窗口菜单编写",
-          "slug": "自定义窗口菜单编写"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>本篇记录窗口菜单的使用及如何自定义窗口!</p>\n</div>"
-    },
-    {
-      "title": "javaScript 标签使用",
-      "frontmatter": {
-        "title": "javaScript 标签使用",
-        "date": "2023-1-14",
-        "sidebar": "auto",
-        "categories": [
-          "javaScript"
-        ],
-        "tags": [
-          "javaScript"
-        ]
-      },
-      "regularPath": "/blogs/javascript/javaScript%E6%A0%87%E7%AD%BE%E4%BD%BF%E7%94%A8.html",
-      "relativePath": "blogs/javascript/javaScript标签使用.md",
-      "key": "v-663e6e13",
-      "path": "/blogs/javascript/javaScript%E6%A0%87%E7%AD%BE%E4%BD%BF%E7%94%A8.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "javaScript元素标签常用属性",
-          "slug": "javascript元素标签常用属性"
-        },
-        {
-          "level": 3,
-          "title": "正常情况下的执行顺序",
-          "slug": "正常情况下的执行顺序"
-        },
-        {
-          "level": 3,
-          "title": "async属性",
-          "slug": "async属性"
-        },
-        {
-          "level": 3,
-          "title": "defer属性",
-          "slug": "defer属性"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>在Html页面中，我们会引入外部js，但是这些js文件是有执行顺序的，我们需要对此有一定的了解，在引用js文件时确定其执行顺序</p>\n</div>",
-      "lastUpdated": "1/14/2023, 11:00:09 PM",
-      "lastUpdatedTimestamp": 1673708409000
     },
     {
       "title": "normalizr使用",
@@ -193,10 +157,10 @@ export const siteData = {
       "lastUpdatedTimestamp": 1673708409000
     },
     {
-      "title": "Electron 桌面应用开发（一)",
+      "title": "Electron 桌面应用开发（二)",
       "frontmatter": {
-        "title": "Electron 桌面应用开发（一)",
-        "date": "2023-1-24",
+        "title": "Electron 桌面应用开发（二)",
+        "date": "2023-1-25",
         "sidebar": "auto",
         "categories": [
           "Electron"
@@ -205,38 +169,78 @@ export const siteData = {
           "Electron"
         ]
       },
-      "regularPath": "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89.html",
-      "relativePath": "blogs/electron/electron桌面应用开发（一）.md",
-      "key": "v-521d7f87",
-      "path": "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89.html",
+      "regularPath": "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%BA%8C%EF%BC%89.html",
+      "relativePath": "blogs/electron/electron桌面应用开发（二）.md",
+      "key": "v-56a93afd",
+      "path": "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%BA%8C%EF%BC%89.html",
       "headers": [
         {
           "level": 2,
-          "title": "初始化Electron",
-          "slug": "初始化electron"
+          "title": "原生窗口菜单的使用",
+          "slug": "原生窗口菜单的使用"
         },
         {
-          "level": 2,
-          "title": "main指向文件引用electron",
-          "slug": "main指向文件引用electron"
+          "level": 3,
+          "title": "修改默认菜单及添加子菜单",
+          "slug": "修改默认菜单及添加子菜单"
         },
         {
-          "level": 2,
-          "title": "安装electron 热加载工具",
-          "slug": "安装electron-热加载工具"
+          "level": 3,
+          "title": "窗口配置",
+          "slug": "窗口配置"
         },
         {
-          "level": 2,
-          "title": "打开页面调试",
-          "slug": "打开页面调试"
-        },
-        {
-          "level": 2,
-          "title": "electron 常用生命周期",
-          "slug": "electron-常用生命周期"
+          "level": 3,
+          "title": "自定义窗口菜单编写",
+          "slug": "自定义窗口菜单编写"
         }
       ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>如果你可以建一个网站，你就可以建一个桌面应用程序。Electron是一个使用javaScript,HTML和Css等Web技术创建原生程序的框架，它负责把你的页面部分打包成跨平台的（Windows,Mac,Linux）应用程序，而开发者可以把精力放到应用的核心功能实现即可。\n本篇记录一些基础的运用，帮你打开一个Hello Electron!</p>\n</div>"
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>本篇记录窗口菜单的使用及如何自定义窗口!</p>\n</div>",
+      "lastUpdated": "1/30/2023, 5:32:03 PM",
+      "lastUpdatedTimestamp": 1675071123000
+    },
+    {
+      "title": "javaScript 标签使用",
+      "frontmatter": {
+        "title": "javaScript 标签使用",
+        "date": "2023-1-14",
+        "sidebar": "auto",
+        "categories": [
+          "javaScript"
+        ],
+        "tags": [
+          "javaScript"
+        ]
+      },
+      "regularPath": "/blogs/javascript/javaScript%E6%A0%87%E7%AD%BE%E4%BD%BF%E7%94%A8.html",
+      "relativePath": "blogs/javascript/javaScript标签使用.md",
+      "key": "v-663e6e13",
+      "path": "/blogs/javascript/javaScript%E6%A0%87%E7%AD%BE%E4%BD%BF%E7%94%A8.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "javaScript元素标签常用属性",
+          "slug": "javascript元素标签常用属性"
+        },
+        {
+          "level": 3,
+          "title": "正常情况下的执行顺序",
+          "slug": "正常情况下的执行顺序"
+        },
+        {
+          "level": 3,
+          "title": "async属性",
+          "slug": "async属性"
+        },
+        {
+          "level": 3,
+          "title": "defer属性",
+          "slug": "defer属性"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>在Html页面中，我们会引入外部js，但是这些js文件是有执行顺序的，我们需要对此有一定的了解，在引用js文件时确定其执行顺序</p>\n</div>",
+      "lastUpdated": "1/14/2023, 11:00:09 PM",
+      "lastUpdatedTimestamp": 1673708409000
     },
     {
       "title": "redux源码详解",
@@ -305,20 +309,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "javaScript Tags"
-      },
-      "regularPath": "/tag/javaScript/",
-      "key": "v-5f66a358",
-      "path": "/tag/javaScript/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
         "title": "normalizr Tags"
       },
       "regularPath": "/tag/normalizr/",
       "key": "v-38c6db02",
       "path": "/tag/normalizr/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "javaScript Tags"
+      },
+      "regularPath": "/tag/javaScript/",
+      "key": "v-5f66a358",
+      "path": "/tag/javaScript/"
     },
     {
       "frontmatter": {
@@ -341,20 +345,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "javaScript Categories"
-      },
-      "regularPath": "/categories/javaScript/",
-      "key": "v-b6967f38",
-      "path": "/categories/javaScript/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
         "title": "react 相关 Categories"
       },
       "regularPath": "/categories/react%20%E7%9B%B8%E5%85%B3/",
       "key": "v-977a34f0",
       "path": "/categories/react 相关/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "javaScript Categories"
+      },
+      "regularPath": "/categories/javaScript/",
+      "key": "v-b6967f38",
+      "path": "/categories/javaScript/"
     }
   ],
   "themeConfig": {

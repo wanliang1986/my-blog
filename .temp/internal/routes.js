@@ -9,6 +9,22 @@ import GlobalLayout from "D:\\my-blog\\my-blog\\node_modules\\@vuepress\\core\\l
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-521d7f87",
+    path: "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-521d7f87").then(next)
+    },
+  },
+  {
+    path: "/blogs/electron/electron桌面应用开发（一）.html",
+    redirect: "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89.html"
+  },
+  {
+    path: "/blogs/electron/electron桌面应用开发（一）.html",
+    redirect: "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89.html"
+  },
+  {
     name: "v-cd6ab84c",
     path: "/",
     component: GlobalLayout,
@@ -19,6 +35,22 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
+  },
+  {
+    name: "v-47667b1a",
+    path: "/blogs/react/normalizr%E4%BD%BF%E7%94%A8.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-47667b1a").then(next)
+    },
+  },
+  {
+    path: "/blogs/react/normalizr使用.html",
+    redirect: "/blogs/react/normalizr%E4%BD%BF%E7%94%A8.html"
+  },
+  {
+    path: "/blogs/react/normalizr使用.html",
+    redirect: "/blogs/react/normalizr%E4%BD%BF%E7%94%A8.html"
   },
   {
     name: "v-56a93afd",
@@ -51,38 +83,6 @@ export const routes = [
   {
     path: "/blogs/javascript/javaScript标签使用.html",
     redirect: "/blogs/javascript/javaScript%E6%A0%87%E7%AD%BE%E4%BD%BF%E7%94%A8.html"
-  },
-  {
-    name: "v-47667b1a",
-    path: "/blogs/react/normalizr%E4%BD%BF%E7%94%A8.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-47667b1a").then(next)
-    },
-  },
-  {
-    path: "/blogs/react/normalizr使用.html",
-    redirect: "/blogs/react/normalizr%E4%BD%BF%E7%94%A8.html"
-  },
-  {
-    path: "/blogs/react/normalizr使用.html",
-    redirect: "/blogs/react/normalizr%E4%BD%BF%E7%94%A8.html"
-  },
-  {
-    name: "v-521d7f87",
-    path: "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-521d7f87").then(next)
-    },
-  },
-  {
-    path: "/blogs/electron/electron桌面应用开发（一）.html",
-    redirect: "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89.html"
-  },
-  {
-    path: "/blogs/electron/electron桌面应用开发（一）.html",
-    redirect: "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89.html"
   },
   {
     name: "v-4879d214",
@@ -153,19 +153,6 @@ export const routes = [
     redirect: "/tag/Electron/"
   },
   {
-    name: "v-5f66a358",
-    path: "/tag/javaScript/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-5f66a358").then(next)
-    },
-    meta: {"pid":"tags","id":"javaScript"}
-  },
-  {
-    path: "/tag/javaScript/index.html",
-    redirect: "/tag/javaScript/"
-  },
-  {
     name: "v-38c6db02",
     path: "/tag/normalizr/",
     component: GlobalLayout,
@@ -177,6 +164,19 @@ export const routes = [
   {
     path: "/tag/normalizr/index.html",
     redirect: "/tag/normalizr/"
+  },
+  {
+    name: "v-5f66a358",
+    path: "/tag/javaScript/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-5f66a358").then(next)
+    },
+    meta: {"pid":"tags","id":"javaScript"}
+  },
+  {
+    path: "/tag/javaScript/index.html",
+    redirect: "/tag/javaScript/"
   },
   {
     name: "v-6018aa36",
@@ -205,19 +205,6 @@ export const routes = [
     redirect: "/categories/Electron/"
   },
   {
-    name: "v-b6967f38",
-    path: "/categories/javaScript/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-b6967f38").then(next)
-    },
-    meta: {"pid":"categories","id":"javaScript"}
-  },
-  {
-    path: "/categories/javaScript/index.html",
-    redirect: "/categories/javaScript/"
-  },
-  {
     name: "v-977a34f0",
     path: "/categories/react 相关/",
     component: GlobalLayout,
@@ -229,6 +216,19 @@ export const routes = [
   {
     path: "/categories/react 相关/index.html",
     redirect: "/categories/react 相关/"
+  },
+  {
+    name: "v-b6967f38",
+    path: "/categories/javaScript/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-b6967f38").then(next)
+    },
+    meta: {"pid":"categories","id":"javaScript"}
+  },
+  {
+    path: "/categories/javaScript/index.html",
+    redirect: "/categories/javaScript/"
   },
   {
     path: '*',
