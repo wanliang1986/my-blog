@@ -23,52 +23,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "Electron 桌面应用开发（一)",
-      "frontmatter": {
-        "title": "Electron 桌面应用开发（一)",
-        "date": "2023-1-24",
-        "sidebar": "auto",
-        "categories": [
-          "Electron"
-        ],
-        "tags": [
-          "Electron"
-        ]
-      },
-      "regularPath": "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89.html",
-      "relativePath": "blogs/electron/electron桌面应用开发（一）.md",
-      "key": "v-521d7f87",
-      "path": "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "初始化Electron",
-          "slug": "初始化electron"
-        },
-        {
-          "level": 2,
-          "title": "main指向文件引用electron",
-          "slug": "main指向文件引用electron"
-        },
-        {
-          "level": 2,
-          "title": "安装electron 热加载工具",
-          "slug": "安装electron-热加载工具"
-        },
-        {
-          "level": 2,
-          "title": "打开页面调试",
-          "slug": "打开页面调试"
-        },
-        {
-          "level": 2,
-          "title": "electron 常用生命周期",
-          "slug": "electron-常用生命周期"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>如果你可以建一个网站，你就可以建一个桌面应用程序。Electron是一个使用javaScript,HTML和Css等Web技术创建原生程序的框架，它负责把你的页面部分打包成跨平台的（Windows,Mac,Linux）应用程序，而开发者可以把精力放到应用的核心功能实现即可。\n本篇记录一些基础的运用，帮你打开一个Hello Electron!</p>\n</div>"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -112,47 +66,45 @@ export const siteData = {
       "lastUpdatedTimestamp": 1673491324000
     },
     {
-      "title": "normalizr使用",
+      "title": "Electron 桌面应用开发（一)",
       "frontmatter": {
-        "title": "normalizr使用",
-        "date": "2022-10-24",
+        "title": "Electron 桌面应用开发（一)",
+        "date": "2023-1-25",
         "sidebar": "auto",
         "categories": [
-          "react 相关"
+          "Electron"
         ],
         "tags": [
-          "normalizr"
+          "Electron"
         ]
       },
-      "regularPath": "/blogs/react/normalizr%E4%BD%BF%E7%94%A8.html",
-      "relativePath": "blogs/react/normalizr使用.md",
-      "key": "v-47667b1a",
-      "path": "/blogs/react/normalizr%E4%BD%BF%E7%94%A8.html",
+      "regularPath": "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%BA%8C%EF%BC%89.html",
+      "relativePath": "blogs/electron/electron桌面应用开发（二）.md",
+      "key": "v-56a93afd",
+      "path": "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%BA%8C%EF%BC%89.html",
       "headers": [
         {
           "level": 2,
-          "title": "normalizr简介",
-          "slug": "normalizr简介"
+          "title": "原生窗口菜单的使用",
+          "slug": "原生窗口菜单的使用"
         },
         {
-          "level": 2,
-          "title": "normalizr安装",
-          "slug": "normalizr安装"
+          "level": 3,
+          "title": "修改默认菜单及添加子菜单",
+          "slug": "修改默认菜单及添加子菜单"
         },
         {
-          "level": 2,
-          "title": "normalizr使用",
-          "slug": "normalizr使用"
+          "level": 3,
+          "title": "窗口配置",
+          "slug": "窗口配置"
         },
         {
-          "level": 2,
-          "title": "schema其他参数使用",
-          "slug": "schema其他参数使用"
+          "level": 3,
+          "title": "自定义窗口菜单编写",
+          "slug": "自定义窗口菜单编写"
         }
       ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>项目中经常会遇到后端给出的数据结构，不满足前端渲染所需要的数据结构，这时就需要对数据进行处理改造，变成符合前端需要的数据格式及结构，这时，就需要用要normalizr来进行数据处理</p>\n</div>",
-      "lastUpdated": "1/14/2023, 11:00:09 PM",
-      "lastUpdatedTimestamp": 1673708409000
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>本篇记录窗口菜单的使用及如何自定义窗口!</p>\n</div>"
     },
     {
       "title": "javaScript 标签使用",
@@ -198,6 +150,49 @@ export const siteData = {
       "lastUpdatedTimestamp": 1673708409000
     },
     {
+      "title": "normalizr使用",
+      "frontmatter": {
+        "title": "normalizr使用",
+        "date": "2022-10-24",
+        "sidebar": "auto",
+        "categories": [
+          "react 相关"
+        ],
+        "tags": [
+          "normalizr"
+        ]
+      },
+      "regularPath": "/blogs/react/normalizr%E4%BD%BF%E7%94%A8.html",
+      "relativePath": "blogs/react/normalizr使用.md",
+      "key": "v-47667b1a",
+      "path": "/blogs/react/normalizr%E4%BD%BF%E7%94%A8.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "normalizr简介",
+          "slug": "normalizr简介"
+        },
+        {
+          "level": 2,
+          "title": "normalizr安装",
+          "slug": "normalizr安装"
+        },
+        {
+          "level": 2,
+          "title": "normalizr使用",
+          "slug": "normalizr使用"
+        },
+        {
+          "level": 2,
+          "title": "schema其他参数使用",
+          "slug": "schema其他参数使用"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>项目中经常会遇到后端给出的数据结构，不满足前端渲染所需要的数据结构，这时就需要对数据进行处理改造，变成符合前端需要的数据格式及结构，这时，就需要用要normalizr来进行数据处理</p>\n</div>",
+      "lastUpdated": "1/14/2023, 11:00:09 PM",
+      "lastUpdatedTimestamp": 1673708409000
+    },
+    {
       "title": "Electron 桌面应用开发（一)",
       "frontmatter": {
         "title": "Electron 桌面应用开发（一)",
@@ -210,33 +205,38 @@ export const siteData = {
           "Electron"
         ]
       },
-      "regularPath": "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%BA%8C%EF%BC%89.html",
-      "relativePath": "blogs/electron/electron桌面应用开发（二）.md",
-      "key": "v-56a93afd",
-      "path": "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%BA%8C%EF%BC%89.html",
+      "regularPath": "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89.html",
+      "relativePath": "blogs/electron/electron桌面应用开发（一）.md",
+      "key": "v-521d7f87",
+      "path": "/blogs/electron/electron%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89.html",
       "headers": [
         {
           "level": 2,
-          "title": "原生窗口菜单的使用",
-          "slug": "原生窗口菜单的使用"
+          "title": "初始化Electron",
+          "slug": "初始化electron"
         },
         {
-          "level": 3,
-          "title": "修改默认菜单及添加子菜单",
-          "slug": "修改默认菜单及添加子菜单"
+          "level": 2,
+          "title": "main指向文件引用electron",
+          "slug": "main指向文件引用electron"
         },
         {
-          "level": 3,
-          "title": "窗口配置",
-          "slug": "窗口配置"
+          "level": 2,
+          "title": "安装electron 热加载工具",
+          "slug": "安装electron-热加载工具"
         },
         {
-          "level": 3,
-          "title": "自定义窗口菜单编写",
-          "slug": "自定义窗口菜单编写"
+          "level": 2,
+          "title": "打开页面调试",
+          "slug": "打开页面调试"
+        },
+        {
+          "level": 2,
+          "title": "electron 常用生命周期",
+          "slug": "electron-常用生命周期"
         }
       ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>本篇记录窗口菜单的使用及如何自定义窗口!</p>\n</div>"
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>如果你可以建一个网站，你就可以建一个桌面应用程序。Electron是一个使用javaScript,HTML和Css等Web技术创建原生程序的框架，它负责把你的页面部分打包成跨平台的（Windows,Mac,Linux）应用程序，而开发者可以把精力放到应用的核心功能实现即可。\n本篇记录一些基础的运用，帮你打开一个Hello Electron!</p>\n</div>"
     },
     {
       "title": "redux源码详解",
@@ -305,20 +305,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "normalizr Tags"
-      },
-      "regularPath": "/tag/normalizr/",
-      "key": "v-38c6db02",
-      "path": "/tag/normalizr/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
         "title": "javaScript Tags"
       },
       "regularPath": "/tag/javaScript/",
       "key": "v-5f66a358",
       "path": "/tag/javaScript/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "normalizr Tags"
+      },
+      "regularPath": "/tag/normalizr/",
+      "key": "v-38c6db02",
+      "path": "/tag/normalizr/"
     },
     {
       "frontmatter": {
@@ -341,20 +341,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "react 相关 Categories"
-      },
-      "regularPath": "/categories/react%20%E7%9B%B8%E5%85%B3/",
-      "key": "v-977a34f0",
-      "path": "/categories/react 相关/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
         "title": "javaScript Categories"
       },
       "regularPath": "/categories/javaScript/",
       "key": "v-b6967f38",
       "path": "/categories/javaScript/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "react 相关 Categories"
+      },
+      "regularPath": "/categories/react%20%E7%9B%B8%E5%85%B3/",
+      "key": "v-977a34f0",
+      "path": "/categories/react 相关/"
     }
   ],
   "themeConfig": {

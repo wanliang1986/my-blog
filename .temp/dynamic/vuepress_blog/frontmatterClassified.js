@@ -8,16 +8,8 @@ export default {
       "scope": "tags",
       "path": "/tag/Electron/",
       "pageKeys": [
-        "v-521d7f87",
-        "v-56a93afd"
-      ]
-    },
-    "normalizr": {
-      "key": "normalizr",
-      "scope": "tags",
-      "path": "/tag/normalizr/",
-      "pageKeys": [
-        "v-47667b1a"
+        "v-56a93afd",
+        "v-521d7f87"
       ]
     },
     "javaScript": {
@@ -26,6 +18,14 @@ export default {
       "path": "/tag/javaScript/",
       "pageKeys": [
         "v-663e6e13"
+      ]
+    },
+    "normalizr": {
+      "key": "normalizr",
+      "scope": "tags",
+      "path": "/tag/normalizr/",
+      "pageKeys": [
+        "v-47667b1a"
       ]
     },
     "redux": {
@@ -43,8 +43,16 @@ export default {
       "scope": "categories",
       "path": "/categories/Electron/",
       "pageKeys": [
-        "v-521d7f87",
-        "v-56a93afd"
+        "v-56a93afd",
+        "v-521d7f87"
+      ]
+    },
+    "javaScript": {
+      "key": "javaScript",
+      "scope": "categories",
+      "path": "/categories/javaScript/",
+      "pageKeys": [
+        "v-663e6e13"
       ]
     },
     "react 相关": {
@@ -54,14 +62,6 @@ export default {
       "pageKeys": [
         "v-47667b1a",
         "v-4879d214"
-      ]
-    },
-    "javaScript": {
-      "key": "javaScript",
-      "scope": "categories",
-      "path": "/categories/javaScript/",
-      "pageKeys": [
-        "v-663e6e13"
       ]
     }
   },
