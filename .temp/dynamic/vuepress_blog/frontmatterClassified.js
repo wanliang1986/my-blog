@@ -3,34 +3,14 @@
  */
 export default {
   "tags": {
-    "normalizr": {
-      "key": "normalizr",
-      "scope": "tags",
-      "path": "/tag/normalizr/",
-      "pageKeys": [
-        "v-47667b1a",
-        "v-47667b1a"
-      ]
-    },
     "Electron": {
       "key": "Electron",
       "scope": "tags",
       "path": "/tag/Electron/",
       "pageKeys": [
-        "v-00357f99",
-        "v-d5b1d29e",
-        "v-00357f99",
-        "v-d5b1d29e",
-        "v-521d7f87"
-      ]
-    },
-    "redux": {
-      "key": "redux",
-      "scope": "tags",
-      "path": "/tag/redux/",
-      "pageKeys": [
-        "v-4879d214",
-        "v-4879d214"
+        "v-2ee65f8a",
+        "v-82973ee6",
+        "v-d5b1d29e"
       ]
     },
     "javaScript": {
@@ -40,30 +20,33 @@ export default {
       "pageKeys": [
         "v-663e6e13"
       ]
+    },
+    "normalizr": {
+      "key": "normalizr",
+      "scope": "tags",
+      "path": "/tag/normalizr/",
+      "pageKeys": [
+        "v-47667b1a"
+      ]
+    },
+    "redux": {
+      "key": "redux",
+      "scope": "tags",
+      "path": "/tag/redux/",
+      "pageKeys": [
+        "v-4879d214"
+      ]
     }
   },
   "categories": {
-    "react 相关": {
-      "key": "react 相关",
-      "scope": "categories",
-      "path": "/categories/react 相关/",
-      "pageKeys": [
-        "v-47667b1a",
-        "v-4879d214",
-        "v-47667b1a",
-        "v-4879d214"
-      ]
-    },
     "Electron": {
       "key": "Electron",
       "scope": "categories",
       "path": "/categories/Electron/",
       "pageKeys": [
-        "v-00357f99",
-        "v-d5b1d29e",
-        "v-00357f99",
-        "v-d5b1d29e",
-        "v-521d7f87"
+        "v-2ee65f8a",
+        "v-82973ee6",
+        "v-d5b1d29e"
       ]
     },
     "javaScript": {
@@ -72,6 +55,15 @@ export default {
       "path": "/categories/javaScript/",
       "pageKeys": [
         "v-663e6e13"
+      ]
+    },
+    "react 相关": {
+      "key": "react 相关",
+      "scope": "categories",
+      "path": "/categories/react 相关/",
+      "pageKeys": [
+        "v-47667b1a",
+        "v-4879d214"
       ]
     }
   },
