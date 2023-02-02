@@ -1,5 +1,5 @@
 ---
-title: Electron 桌面应用开发（一)
+title: Electron 基础知识（一)
 date: '2023-1-24'
 sidebar: 'auto'
 categories:

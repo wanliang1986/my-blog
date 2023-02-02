@@ -1,5 +1,5 @@
 ---
-title: Electron 桌面应用开发（二)
+title: Electron 基础知识（二)
 date: '2023-1-25'
 sidebar: 'auto'
 categories:
@@ -61,6 +61,40 @@ const template = [
     ]
 ```
 这样，当我们点击文件的子菜单新建窗口时，就能打开一个和主进程窗口一样的新的窗口，就实现了和vsCode里新建窗口一样的功能
+
+### 菜单类型,内容区分
+
+#### 类型区分
+- checkbox
+- separator
+- radio
+- submenu
+
+``` js
+const template = [
+        {label:'文件1',type:'checkbox'}, //带勾选效果的菜单
+        {label:'保存1',type:'checkbox'},
+        {type:'separator'}, //菜单中的分隔符
+        {label:'文件2',type:'radio'}, //带单选框的菜单
+        {label:'保存2',type:'radio'},
+        {type:'separator'}
+        {label:'文件3',type:'submenu',role:'windowMenu'}, //菜单中的二级菜单
+    ]
+```
+
+#### 内容区分
+
+通过role属性来区分菜单内容功能，例如：
+
+``` js
+const template = [
+        {label:'复制',role:'copy'}, 
+        {label:'剪切',role:'cut'},
+        {label:'粘贴',role:'paste'}, 
+        {label:'最小化',role:'minimize'},
+    ]
+```
+
 
 ### 窗口配置
 
